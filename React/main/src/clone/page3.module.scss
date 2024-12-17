@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Dodum&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* otherTwo */
+main .other_2 .otherTwo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .other_2 .otherTwo .otherPic_container {
+    width: 100%;
+}
+
+main .other_2 .otherTwo .otherPic_container .inner {
+    width: 100%;
+    white-space: normal;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+main .other_2 .otherTwo .otherPic_container .inner img {
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+main .other_2 .otherTwo .otherPic_container .inner:hover img {
+    transform: scale(1.05);
+}
+
+main .other_2 .otherTwo .otherPic_container .inner .comment {
+    width: 90%;
+    height: 120px;
+    white-space: normal;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+main .other_2 .otherTwo .author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main .other_2 .otherTwo .title {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/* other pic */
+
+main .other {
+    width: 100%;
+    display: flex;
+}
+
+/* other 코멘트 */
+main .otherPicComment {
+    width: 100%;
+    border-top: 2px solid rgb(184, 181, 181);
+    margin: 70px 0px 10px 0px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main .other .otherLeft {
+    width: 40%;
+    display: flex;
+    margin-right: 30px;
+}
+
+main .other .otherLeft .inner {
+    width: 100%;
+    height: 500px;
+}
+
+main .other .otherLeft .inner img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+main .other .otherLeft .author {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+main .other .otherLeft .title {
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+
+/* otherRight */
+
+main .other .otherRight {
+    width: 100%;
+}
+
+main .other .otherRight .otherOne {
+    display: flex;
+
+}
+
+main .other .otherRight .otherPic_container {
+    width: 100%;
+}
+
+main .other .otherRight .otherPic_container .inner {
+    width: 90%;
+    white-space: normal;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+main .other .otherRight .otherPic_container .inner img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+main .other .otherRight .otherPic_container .inner:hover img {
+    transform: scale(1.05);
+}
+
+
+main .other .otherRight .otherPic_container .inner .comment {
+    height: 120px;
+    white-space: normal;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+main .other .otherRight .author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main .other .otherRight .title {
+    font-size: 15px;
+    padding-top: 10px;
+}
